@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 import models, schemas, crud
 
 from fastapi import FastAPI, HTTPException, Depends
@@ -62,3 +63,7 @@ def delete_employee(emp_id: int, db: Session = Depends(get_db)):
     return {
         'message': 'Employee deleted successfully'
     }
+=======
+# main.py
+
+>>>>>>> 7709fed302fd06d2836e644253d50f5764308f48
